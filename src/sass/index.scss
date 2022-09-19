@@ -1,2 +1,27 @@
-@import './common';
-@import './example';
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/hidden';
+@import './utils/extend';
+
+@import './base/reset';
+@import './base/animation';
+@import './base/common';
+@import './base/container';
+
+@import './components/elements/btn';
+@import './components/elements/logo';
+@import './components/elements/title';
+
+@import './components/sections/about-us';
+@import './components/sections/advantages';
+@import './components/sections/contact';
+@import './components/sections/footer';
+@import './components/sections/header';
+@import './components/sections/hero';
+@import './components/sections/modal';
+@import './components/sections/our-work';
+@import './components/sections/questions';
+@import './components/sections/raw-materil';
+@import './components/sections/scroll-to-up';
+@import './components/sections/we-work-with';
+@import './components/sections/price.scss';
